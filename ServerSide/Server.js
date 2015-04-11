@@ -25,7 +25,7 @@ server.listen(1337, function() {
 
 	});
 
-});});
+});
 
 //Takes in a url that points to an allmenu restaurant and a string stating the desired function
 var parseMenu = function(url, funk){
