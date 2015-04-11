@@ -3,6 +3,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var request = require('request');
 var cheerio = require('cheerio');
+var Database = require('fileDB.js').Database;
 var fs = require("fs");
 
 //Create server
@@ -15,8 +16,7 @@ server.use(express.static('../ClientSide/'));
 //Start server
 server.listen(1337, function() {
     console.log('Hackathon server running on port ' + 1337);
-
-
+	
 });
 
 //Takes in a url that points to an allmenu restaurant and a string stating the desired function
