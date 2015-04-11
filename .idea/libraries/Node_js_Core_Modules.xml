@@ -3,12 +3,12 @@
     <properties>
       <option name="frameworkName" value="Node.js Core Modules" />
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/../../angular.js" />
+        <item url="file://$USER_HOME$/angular.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../angular.min.js" />
-      <root url="file://$PROJECT_DIR$/../../angular.js" />
+      <root url="file://$USER_HOME$/angular.min.js" />
+      <root url="file://$USER_HOME$/angular.js" />
     </CLASSES>
     <SOURCES />
   </library>
