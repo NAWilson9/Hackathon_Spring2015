@@ -24,7 +24,6 @@ server.listen(1337, function() {
 		test.get("hello", function(err, data){console.log(data)});
 
 	});
-
 });
 
 //Takes in a url that points to an allmenu restaurant and a string stating the desired function
