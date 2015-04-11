@@ -3,7 +3,6 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var request = require('request');
 var cheerio = require('cheerio');
-var Database = require('fileDB.js').Database;
 var fs = require("fs");
 
 //Create server
@@ -17,13 +16,6 @@ server.use(express.static('../ClientSide/'));
 server.listen(1337, function() {
     console.log('Hackathon server running on port ' + 1337);
 
-	// database test, shows it works, delete if you want
-	var test = Database('test');
-	test.put("hello", "world", function(){
-
-		test.get("hello", function(err, data){console.log(data)});
-
-	});
 
 });
 
